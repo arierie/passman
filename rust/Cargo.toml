@@ -1,0 +1,11 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+jni = "0.5.2"
+rand = "0.8.3"
+
+[lib]
+crate_type = ["staticlib", "dylib"]
